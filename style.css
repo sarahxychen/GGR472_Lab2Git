@@ -1,0 +1,9 @@
+.map-container { 
+    position: absolute; 
+    top: 2;
+    bottom: 2;
+    left: 2;
+    right: 2;
+    width: 50%;
+    height: 70%;
+}
