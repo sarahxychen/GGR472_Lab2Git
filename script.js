@@ -3,9 +3,9 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2FyYWh4eWNoZW4iLCJhIjoiY2xyZnB4c2h0MDhnMzJqc
 
 const map = new mapboxgl.Map({
     container: 'my-map', // map container ID
-    style: 'mapbox://styles/sarahxychen/clsil73k103lp01pbfsu0fl5a', // style URL
-    center: [-79.403624, 43.689877], // starting position [lng, lat] 
-    zoom: 10.9 // starting zoom
+    style: 'mapbox://styles/sarahxychen/clskmpfs603tf01p25v25bs4j', // style URL
+    center: [-79.373958, 43.664337], // starting position [lng, lat] 
+    zoom: 11.72 // starting zoom
 });
 
 // Add biking parking point GeoJSON

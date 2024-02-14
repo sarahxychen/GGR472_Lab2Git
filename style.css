@@ -1,9 +1,61 @@
-.map-container { 
-    position: absolute; 
-    top: 2;
-    bottom: 2;
-    left: 2;
-    right: 2;
-    width: 100%;
+/* size of map */
+html, body {
     height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+
+/* Style head/foot division */
+
+.sample-head-foot {
+    box-sizing: border-box; 
+    background-color: gray;
+    color: #eee;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* style header container */
+
+#header {
+    margin: 0;
+    height: 40px;
+    border: 2px solid yellow;
+}
+
+/* add in bootstrap navbar styling */
+
+/* style map border */
+
+#my-map {
+    box-sizing: border-box; 
+    border: 2px solid red;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+}
+
+/* style footer */
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    border: 2px solid lime;
+    height: 50px;
+}
+
+/* .map-container {  */
+    /* position: absolute;  */
+    /* top: 2; */
+    /* bottom: 2; */
+    /* left: 2; */
+    /* right: 2; */
+    /* width: 60%; */
+    /* height: 90%; */
+/* } */
