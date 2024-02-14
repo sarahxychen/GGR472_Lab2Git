@@ -51,12 +51,12 @@ map.on('load', () => {
 // After the last frame rendered before the map enters an "idle" state.
 map.on('idle', () => {
     // If these two layers were not added to the map, abort
-    if (!map.getLayer('contours') || !map.getLayer('museums')) {
+    if (!map.getLayer('cycle-path') || !map.getLayer('parking-point')) {
     return;
     }
      
     // Enumerate ids of the layers.
-    const toggleableLayerIds = ['contours', 'museums'];
+    const toggleableLayerIds = ['cycle-path', 'parking-point'];
      
     // Set up the corresponding toggle button for each layer.
     for (const id of toggleableLayerIds) {
