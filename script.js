@@ -8,6 +8,9 @@ const map = new mapboxgl.Map({
     zoom: 11.72 // starting zoom
 });
 
+// add zoom control
+map.addControl(new mapboxgl.NavigationControl());
+
 // Add biking parking point GeoJSON
 
 map.on('load', () => {
